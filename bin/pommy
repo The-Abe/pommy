@@ -4,4 +4,4 @@ require 'pommy'
 
 # Shutdown with ^c at any moment.
 trap('SIGINT') { exit 0 }
-Pommy.run
+Pommy.run(ARGV[0])
